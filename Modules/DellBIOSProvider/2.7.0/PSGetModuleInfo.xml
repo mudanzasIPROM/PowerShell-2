@@ -1,0 +1,181 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">DellBIOSProvider</S>
+      <Version N="Version">2.7.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">The 'Dell Command | PowerShell Provider' provides native configuration capability of Dell Optiplex, Latitude, Precision, XPS Notebook and Venue 11 systems within PowerShell.</S>
+      <S N="Author">Dell BizClient Team</S>
+      <Obj N="CompanyName" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>dcpp.dell</S>
+          <S>NitinKathpalia</S>
+          <S>Mazahir_Ahmad_Khan</S>
+        </LST>
+      </Obj>
+      <S N="Copyright">Copyright 2015 - 2022 Dell Inc. All rights reserved.</S>
+      <DT N="PublishedDate">2022-11-10T07:16:42+01:00</DT>
+      <Obj N="InstalledDate" RefId="2">
+        <DT>2022-12-17T16:58:19.4273193+01:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="3">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">http://en.community.dell.com/techcenter/enterprise-client/w/wiki/6901.dell-command-powershell-provider</URI>
+      <URI N="ProjectUri">http://en.community.dell.com/techcenter/enterprise-client/w/wiki/6901.dell-command-powershell-provider</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="4">
+        <TNRef RefId="1" />
+        <LST>
+          <S>Dell</S>
+          <S>Command</S>
+          <S>BIOS</S>
+          <S>System</S>
+          <S>Configuration</S>
+          <S>Management</S>
+          <S>Provider</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="5">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="1" />
+              <LST>
+                <S>AdvancedBootOptions</S>
+                <S>AdvancedConfigurations</S>
+                <S>BIOSSetupAdvancedMode</S>
+                <S>BootSequence</S>
+                <S>IntelSoftwareGuardExtensions</S>
+                <S>Maintenance</S>
+                <S>Manageability</S>
+                <S>MiscellaneousDevices</S>
+                <S>Performance</S>
+                <S>POSTBehavior</S>
+                <S>PowerManagement</S>
+                <S>SecureBoot</S>
+                <S>Security</S>
+                <S>StealthModeControl</S>
+                <S>SupportAssistSystemResolution</S>
+                <S>SystemConfiguration</S>
+                <S>SystemLogs</S>
+                <S>TPMSecurity</S>
+                <S>USBConfiguration</S>
+                <S>Video</S>
+                <S>VirtualizationSupport</S>
+                <S>Wireless</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Set-Dell1stBootdevice</S>
+                <S>Get-DellBiosSettings</S>
+                <S>Clear-DellAdminPassword</S>
+                <S>Set-DellAutoOnForSelectDays</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="9">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Set-Dell1stBootdevice</S>
+                <S>Get-DellBiosSettings</S>
+                <S>Clear-DellAdminPassword</S>
+                <S>Set-DellAutoOnForSelectDays</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">http://en.community.dell.com/techcenter/enterprise-client/w/wiki/6901.dell-command-powershell-provider</S>
+      <Obj N="Dependencies" RefId="10">
+        <TNRef RefId="1" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="11">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Copyright 2015 - 2022 Dell Inc. All rights reserved.</S>
+          <S N="description">The 'Dell Command | PowerShell Provider' provides native configuration capability of Dell Optiplex, Latitude, Precision, XPS Notebook and Venue 11 systems within PowerShell.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">http://en.community.dell.com/techcenter/enterprise-client/w/wiki/6901.dell-command-powershell-provider</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">12460062</S>
+          <S N="downloadCount">232477980</S>
+          <S N="packageSize">2038704</S>
+          <S N="published">10/11/2022 7:16:42 +01:00</S>
+          <S N="created">10/11/2022 7:16:42 +01:00</S>
+          <S N="lastUpdated">17/12/2022 15:53:25 +01:00</S>
+          <S N="tags">Dell Command BIOS System Configuration Management Provider PSModule PSFunction_Set-Dell1stBootdevice PSCommand_Set-Dell1stBootdevice PSFunction_Get-DellBiosSettings PSCommand_Get-DellBiosSettings PSFunction_Clear-DellAdminPassword PSCommand_Clear-DellAdminPassword PSFunction_Set-DellAutoOnForSelectDays PSCommand_Set-DellAutoOnForSelectDays PSIncludes_Function PSDscResource_AdvancedBootOptions PSDscResource_AdvancedConfigurations PSDscResource_BIOSSetupAdvancedMode PSDscResource_BootSequence PSDscResource_IntelSoftwareGuardExtensions PSDscResource_Maintenance PSDscResource_Manageability PSDscResource_MiscellaneousDevices PSDscResource_Performance PSDscResource_POSTBehavior PSDscResource_PowerManagement PSDscResource_SecureBoot PSDscResource_Security PSDscResource_StealthModeControl PSDscResource_SupportAssistSystemResolution PSDscResource_SystemConfiguration PSDscResource_SystemLogs PSDscResource_TPMSecurity PSDscResource_USBConfiguration PSDscResource_Video PSDscResource_VirtualizationSupport PSDscResource_Wireless PSIncludes_DscResource</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-12-17T15:53:25Z</S>
+          <S N="NormalizedVersion">2.7.0</S>
+          <S N="Authors">Dell BizClient Team</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">DellBIOSProvider.nuspec|BIOSIntf.dll|Install-instructions.txt|DSCResources\DCPP_BootSequence\DCPP_BootSequence.psm1|DSCResources\DCPP_Performance\DCPP_Performance.schema.mof|DSCResources\DCPP_SupportAssistSystemResolution\DCPP_SupportAssistSystemResolution.psm1|DSCResources\DCPP_Video\DCPP_Video.schema.mof|DSC_SampleScripts\Sample_PowerManagement.ps1|ResourceDesignerScripts\GenerateDCPP-PowerManagementSchema.ps1|Clear-DellAdminPassword.ps1|libxml2.dll|DSCResources\DCPP_BootSequence\DCPP_BootSequence.schema.mof|DSCResources\DCPP_POSTBehavior\DCPP_POSTBehavior.psm1|DSCResources\DCPP_SupportAssistSystemResolution\DCPP_SupportAssistSystemResolution.schema.mof|DSCResources\DCPP_VirtualizationSupport\DCPP_VirtualizationSupport.psm1|DSC_SampleScripts\Sample_SecureKey.ps1|ResourceDesignerScripts\GenerateDCPP-SecuritySchema.ps1|Dell Command PowerShell Provider Third Party Licenses.pdf|Load-DellBIOSProvider.ps1|DSCResources\DCPP_IntelSoftwareGuardExtensions\DCPP_IntelSoftwareGuardExtensions.psm1|DSCResources\DCPP_POSTBehavior\DCPP_POSTBehavior.schema.mof|DSCResources\DCPP_SystemConfiguration\DCPP_SystemConfiguration.psm1|DSCResources\DCPP_VirtualizationSupport\DCPP_VirtualizationSupport.schema.mof|en-US\about_DellBIOSProvider.help.txt|ResourceDesignerScripts\GenerateDCPP-SystemConfigurationSchema.ps1|DellBIOSProvider.cat|Set-Dell1stBootdevice.ps1|DSCResources\DCPP_IntelSoftwareGuardExtensions\DCPP_IntelSoftwareGuardExtensions.schema.mof|DSCResources\DCPP_PowerManagement\DCPP_PowerManagement.psm1|DSCResources\DCPP_SystemConfiguration\DCPP_SystemConfiguration.schema.mof|DSCResources\DCPP_Wireless\DCPP_Wireless.psm1|en-US\about_DellBIOSProvider_DscResources.help.txt|ResourceDesignerScripts\GenerateDCPP-SystemInformationSchema.ps1|DellBIOSProvider.dll|Set-DellAutoOnForSelectDays.ps1|DSCResources\DCPP_Maintenance\DCPP_Maintenance.psm1|DSCResources\DCPP_PowerManagement\DCPP_PowerManagement.schema.mof|DSCResources\DCPP_SystemLogs\DCPP_SystemLogs.psm1|DSCResources\DCPP_Wireless\DCPP_Wireless.schema.mof|en-US\DellBIOSProvider.dll-Help.xml|ResourceDesignerScripts\GenerateDCPP-TPMSecuritySchema.ps1|DSCResources\DCPP_AdvancedBootOptions\DCPP_AdvancedBootOptions.psm1|DSCResources\DCPP_Maintenance\DCPP_Maintenance.schema.mof|DSCResources\DCPP_SecureBoot\DCPP_SecureBoot.psm1|DSCResources\DCPP_SystemLogs\DCPP_SystemLogs.schema.mof|DSC_SampleScripts\Sample_All.ps1|Misc\helper.psm1|ResourceDesignerScripts\GenerateDCPP-USBConfigurationSchema.ps1|DellBIOSProvider.psd1|DSCResources\DCPP_AdvancedBootOptions\DCPP_AdvancedBootOptions.schema.mof|DSCResources\DCPP_Manageability\DCPP_Manageability.psm1|DSCResources\DCPP_SecureBoot\DCPP_SecureBoot.schema.mof|DSCResources\DCPP_TPMSecurity\DCPP_TPMSecurity.psm1|DSC_SampleScripts\Sample_ChangeLCMMetaConfig.ps1|ResourceDesignerScripts\GenerateDCPP-AdvancedBootOptionsSchema.ps1|ResourceDesignerScripts\GenerateDCPP-VideoSchema.ps1|DellBIOSProvider.PSM1|DSCResources\DCPP_AdvancedConfigurations\DCPP_AdvancedConfigurations.psm1|DSCResources\DCPP_Manageability\DCPP_Manageability.schema.mof|DSCResources\DCPP_Security\DCPP_Security.psm1|DSCResources\DCPP_TPMSecurity\DCPP_TPMSecurity.schema.mof|DSC_SampleScripts\Sample_MultipleNodes_1.ps1|ResourceDesignerScripts\GenerateDCPP-BootSequenceSchema.ps1|ResourceDesignerScripts\GenerateDCPP-VirtualizationSchema.ps1|DSMBLibrary.dll|DSCResources\DCPP_AdvancedConfigurations\DCPP_AdvancedConfigurations.schema.mof|DSCResources\DCPP_MiscellaneousDevices\DCPP_MiscellaneousDevices.psm1|DSCResources\DCPP_Security\DCPP_Security.schema.mof|DSCResources\DCPP_USBConfiguration\DCPP_USBConfiguration.psm1|DSC_SampleScripts\Sample_MultipleNodes_2.ps1|ResourceDesignerScripts\GenerateDCPP-MiscellaneousDevicesSchema.ps1|ResourceDesignerScripts\GenerateDCPP-WirelessSchema.ps1|DSMBLibWrapper.dll|DSCResources\DCPP_BIOSSetupAdvancedMode\DCPP_BIOSSetupAdvancedMode.psm1|DSCResources\DCPP_MiscellaneousDevices\DCPP_MiscellaneousDevices.schema.mof|DSCResources\DCPP_StealthModeControl\DCPP_StealthModeControl.psm1|DSCResources\DCPP_USBConfiguration\DCPP_USBConfiguration.schema.mof|DSC_SampleScripts\Sample_PassingCredentials.ps1|ResourceDesignerScripts\GenerateDCPP-PerformanceSchema.ps1|Tests\ResourceTests.ps1|Get-DellBiosSettings.ps1|DSCResources\DCPP_BIOSSetupAdvancedMode\DCPP_BIOSSetupAdvancedMode.schema.mof|DSCResources\DCPP_Performance\DCPP_Performance.psm1|DSCResources\DCPP_StealthModeControl\DCPP_StealthModeControl.schema.mof|DSCResources\DCPP_Video\DCPP_Video.psm1|DSC_SampleScripts\Sample_POSTBehavior.ps1|ResourceDesignerScripts\GenerateDCPP-POSTBehaviorSchema.ps1</S>
+          <S N="GUID">c1b58280-3210-441f-9be5-8f27a363412f</S>
+          <S N="PowerShellVersion">3.0</S>
+          <S N="ProcessorArchitecture">Amd64</S>
+          <S N="CompanyName">Dell Inc.</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\user\OneDrive\Documentos\PowerShell\Modules\DellBIOSProvider\2.7.0</S>
+    </MS>
+  </Obj>
+</Objs>

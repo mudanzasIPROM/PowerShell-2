@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerShellMetadata xmlns="http://schemas.microsoft.com/cmdlets-over-objects/2009/11">
+  <Class ClassName="Root\StandardCimV2\MSFT_NetLldpAgent">
+    <Version>1.0.0</Version>
+    <DefaultNoun>NetLldpAgent</DefaultNoun>
+    <InstanceCmdlets>
+      <GetCmdletParameters DefaultCmdletParameterSet="ByName">
+        <QueryableProperties>
+          <Property PropertyName="InterfaceAlias">
+            <Type PSType ="string"/>
+            <RegularQuery AllowGlobbing="true">
+              <CmdletParameterMetadata PSName="NetAdapterName" Position="0" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName" />
+            </RegularQuery>
+          </Property>
+          <Property PropertyName="AddressScope">
+            <Type PSType="NetLldpAgent.AddressScope"/>
+            <RegularQuery>
+              <CmdletParameterMetadata PSName="AddressScope" Position="1" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByIfIndex" />
+            </RegularQuery>
+          </Property>
+          <Property PropertyName="InterfaceIndex">
+            <Type PSType ="UInt32"/>
+            <RegularQuery AllowGlobbing="true">
+              <CmdletParameterMetadata PSName="InterfaceIndex" Position="0" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByIfIndex" />
+            </RegularQuery>
+          </Property>
+        </QueryableProperties>
+      </GetCmdletParameters>
+      <Cmdlet>
+        <CmdletMetadata Verb="Enable" ConfirmImpact="Low"/>
+        <Method MethodName="Enable">
+        </Method>
+        <GetCmdletParameters DefaultCmdletParameterSet="ByName">
+          <QueryableProperties>
+            <Property PropertyName="InterfaceAlias">
+              <Type PSType ="string"/>
+              <RegularQuery AllowGlobbing="true">
+                <CmdletParameterMetadata PSName="NetAdapterName" Position="0" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName" IsMandatory="true" />
+              </RegularQuery>
+            </Property>
+            <Property PropertyName="AddressScope">
+              <Type PSType="NetLldpAgent.AddressScope"/>
+              <RegularQuery>
+                <CmdletParameterMetadata PSName="AddressScope" Position="1" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByIfIndex" />
+              </RegularQuery>
+            </Property>
+            <Property PropertyName="InterfaceIndex">
+              <Type PSType ="UInt32"/>
+              <RegularQuery AllowGlobbing="true">
+                <CmdletParameterMetadata PSName="InterfaceIndex" Position="0" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByIfIndex" IsMandatory="true" />
+              </RegularQuery>
+            </Property>
+          </QueryableProperties>
+        </GetCmdletParameters>
+      </Cmdlet>
+      <Cmdlet>
+        <CmdletMetadata Verb="Disable" ConfirmImpact="Low"/>
+        <Method MethodName="Disable">
+        </Method>
+        <GetCmdletParameters DefaultCmdletParameterSet="ByName">
+          <QueryableProperties>
+            <Property PropertyName="InterfaceAlias">
+              <Type PSType ="string"/>
+              <RegularQuery AllowGlobbing="true">
+                <CmdletParameterMetadata PSName="NetAdapterName" Position="0" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName" IsMandatory="true" />
+              </RegularQuery>
+            </Property>
+            <Property PropertyName="AddressScope">
+              <Type PSType="NetLldpAgent.AddressScope"/>
+              <RegularQuery>
+                <CmdletParameterMetadata PSName="AddressScope" Position="1" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByName ByIfIndex" />
+              </RegularQuery>
+            </Property>
+            <Property PropertyName="InterfaceIndex">
+              <Type PSType ="UInt32"/>
+              <RegularQuery AllowGlobbing="true">
+                <CmdletParameterMetadata PSName="InterfaceIndex" Position="0" ValueFromPipelineByPropertyName="true" CmdletParameterSets="ByIfIndex" IsMandatory="true" />
+              </RegularQuery>
+            </Property>
+          </QueryableProperties>
+        </GetCmdletParameters>
+      </Cmdlet>
+    </InstanceCmdlets>
+  </Class>
+
+  <Enums>
+    <Enum EnumName="NetLldpAgent.AddressScope" UnderlyingType="UInt32">
+      <Value Name="NearestBridge" Value="1" />
+      <Value Name="NearestNonTpmrBridge" Value="2" />
+      <Value Name="NearestCustomerBridge" Value="3" />
+    </Enum>
+  </Enums>
+</PowerShellMetadata>
