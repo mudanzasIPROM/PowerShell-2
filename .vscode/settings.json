@@ -1,5 +1,8 @@
 {
     "cloudcode.yaml.trace.server": "verbose",
     "cloudcode.verboseLogging": true,
-    "cloudcode.updateChannel": "Default"
+    "cloudcode.updateChannel": "Default",
+    "cloudcode.yaml.format.enable": true,
+    "cloudcode.yaml.format.singleQuote": true,
+    "cloudcode.yaml.format.proseWrap": "never"
 }
