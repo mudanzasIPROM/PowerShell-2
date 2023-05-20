@@ -1,3 +1,5 @@
 {
-    "cloudcode.yaml.trace.server": "verbose"
+    "cloudcode.yaml.trace.server": "verbose",
+    "cloudcode.verboseLogging": true,
+    "cloudcode.updateChannel": "Default"
 }
